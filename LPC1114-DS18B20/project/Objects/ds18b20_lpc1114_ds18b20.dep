@@ -1,0 +1,70 @@
+Dependencies for Project 'ds18b20', Target 'lpc1114_ds18b20': (DO NOT MODIFY !)
+F (.\user\main.c)(0x5937780D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\lpc11xx\lpc11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+I (..\delay\delay.h)(0x59358B1A)
+I (..\oled\oled.h)(0x592EAD9A)
+I (..\oled\Function_Display.h)(0x5936188A)
+I (..\key\key.h)(0x5932B8CE)
+I (..\ds18b20\ds18b20.h)(0x59358A32)
+I (..\uart\uart.h)(0x59377083)
+F (..\delay\delay.c)(0x59358B36)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\delay\delay.h)(0x59358B1A)
+I (..\lpc11xx\LPC11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+F (..\lpc11xx\startup_LPC11xx.s)(0x52065878)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (..\lpc11xx\system_LPC11xx.c)(0x5937794C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\LPC11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+F (..\oled\Function_Display.c)(0x59377564)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\function_display.o --omf_browse .\objects\function_display.crf --depend .\objects\function_display.d)
+I (..\oled\oled.h)(0x592EAD9A)
+I (..\lpc11xx\lpc11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+I (..\ds18b20\ds18b20.h)(0x59358A32)
+I (..\key\key.h)(0x5932B8CE)
+I (..\uart\uart.h)(0x59377083)
+I (..\delay\delay.h)(0x59358B1A)
+I (..\oled\Function_Display.h)(0x5936188A)
+F (..\oled\oled.c)(0x5935FAF0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (..\oled\oled.h)(0x592EAD9A)
+I (..\lpc11xx\lpc11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\oled\oledfont.h)(0x592EACB2)
+I (..\delay\delay.h)(0x59358B1A)
+F (..\ds18b20\ds18b20.c)(0x59363F9A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\ds18b20.o --omf_browse .\objects\ds18b20.crf --depend .\objects\ds18b20.d)
+I (..\ds18b20\ds18b20.h)(0x59358A32)
+I (..\lpc11xx\lpc11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+F (..\uart\uart.c)(0x59377061)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\delay -I..\ds18b20 -I..\key -I..\lpc11xx -I..\oled -I..\uart-I C:\Users\Lenovo\Desktop\LPC1114-DS18B20\project\RTE-I D:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\lpc11xx\lpc11xx.h)(0x52065878)
+I (..\lpc11xx\core_cm0.h)(0x52065878)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\lpc11xx\core_cmInstr.h)(0x52065878)
+I (..\lpc11xx\core_cmFunc.h)(0x52065878)
+I (..\lpc11xx\system_LPC11xx.h)(0x52065878)
+I (..\uart\uart.h)(0x59377083)

@@ -1,0 +1,11 @@
+.\objects\oled.o: ..\oled\oled.c
+.\objects\oled.o: ..\oled\oled.h
+.\objects\oled.o: ..\lpc11xx\lpc11xx.h
+.\objects\oled.o: ..\lpc11xx\core_cm0.h
+.\objects\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: ..\lpc11xx\core_cmInstr.h
+.\objects\oled.o: ..\lpc11xx\core_cmFunc.h
+.\objects\oled.o: ..\lpc11xx\system_LPC11xx.h
+.\objects\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\oled.o: ..\oled\oledfont.h
+.\objects\oled.o: ..\delay\delay.h

@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+".\objects\function_display.o"
+".\objects\oled.o"
+".\objects\ds18b20.o"
+".\objects\uart.o"
+--strict --scatter ".\Objects\ds18b20.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ds18b20.map" -o .\Objects\ds18b20.axf
